@@ -41,7 +41,11 @@ SklzxlaBinbyxiayupontby滑动横排按钮3pontby.onClick=function()--aluafu点�
 --aluafu点击事件首
 CJTzkgpuinbyxiayupontby滑动横排按钮1pontby.onClick=function()--aluafu点击事件
 进入页面("bd")      
+print("暂未开放")
  end--aluafu点击事件尾CJTzkgpuinbyxiayupontby滑动横排按钮1pontby
+
+
+
 
 --aluafu点击事件首
 nHRdvqtSinbyxiayupontby滑动横排按钮2pontby.onClick=function()--aluafu点击事件
@@ -50,5 +54,24 @@ nHRdvqtSinbyxiayupontby滑动横排按钮2pontby.onClick=function()--aluafu点�
 
 --aluafu点击事件首
 lGyNDqcVinbyxiayupontby滑动横排按钮3pontby.onClick=function()--aluafu点击事件
-进入页面("v")      
+print("软件版本：v2.1.2")
+
+
+
  end--aluafu点击事件尾lGyNDqcVinbyxiayupontby滑动横排按钮3pontby
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
