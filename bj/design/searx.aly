@@ -1,68 +1,101 @@
 {
   LinearLayout;
-  background="#ff29314d";
-  layout_width="432dp";
-  orientation="vertical";
-  id="nil";
+  layout_width="fill";
+  padding="0dp";
+  paddingLeft="0dp";
   layout_height="fill";
+  paddingBottom="0dp";
+  id="nil";
+  paddingRight="0dp";
+  paddingTop="29dp";
+  background="#ff29314d";
+  orientation="vertical";
   {
     LinearLayout;
-    id="nil";
     layout_width="fill";
-    background="#ffffffff";
+    id="nil";
+    orientation="horizontal";
+    layout_height="60dp";
     {
       LinearLayout;
+      layout_width="56dp";
+      id="jhrDYCpcinbyxiayupontby顶栏图片按钮1pontby";
       background="#ff29314d";
-      layout_width="fill";
-      orientation="horizontal";
-      id="nil";
-      layout_height="76dp";
-      {
-        LinearLayout;
-        id="nil";
-        layout_height="123dp";
-        background="#ff29314d";
-        layout_width="333dp";
-        {
-          ImageView;
-          layout_width="26dp";
-          layout_marginLeft="20dp";
-          ColorFilter="#ffffffff";
-          layout_gravity="center";
-          src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
-          id="HwRmaxjainbyxiayupontby顶栏图片按钮1pontby";
-          layout_height="26dp";
-        };
-        {
-          TextView;
-          text="searX 搜索引擎";
-          textColor="#ffffffff";
-          textSize="19sp";
-          layout_gravity="center";
-          Typeface=Typeface.DEFAULT_BOLD;
-          layout_marginLeft="26dp";
-          id="nil";
-        };
-      };
+      layout_height="fill";
+      gravity="center";
       {
         ImageView;
-        layout_width="26dp";
-        layout_marginLeft="22dp";
-        ColorFilter="#ff333333";
+        layout_width="25dp";
+        ColorFilter="#ffffffff";
+        src=activity.getLuaDir().."/bj/res/arrow_back.png";
+        id="nil";
+        layout_height="28dp";
+      };
+    };
+    {
+      LinearLayout;
+      layout_width="wrap";
+      padding="0dp";
+      layout_weight="1";
+      id="nil";
+      background="#ff29314d";
+      orientation="horizontal";
+      layout_height="fill";
+      {
+        TextView;
         layout_gravity="center";
-        src="res/note.png";
-        id="edzxynaWinbyxiayupontby顶栏按钮2pontby";
-        layout_height="26dp";
+        id="nil";
+        Typeface=Typeface.DEFAULT_BOLD;
+        textColor="#ffffffff";
+        textSize="18sp";
+        text="searX";
+        layout_width="wrap";
+        layout_height="wrap";
+      };
+    };
+    {
+      LinearLayout;
+      layout_width="55dp";
+      id="KNaohkhTinbyxiayupontby顶栏按钮2pontby";
+      background="#ff29314d";
+      layout_height="fill";
+      gravity="center";
+      {
+        ImageView;
+        layout_width="25dp";
+        ColorFilter="#ffffffff";
+        src=activity.getLuaDir().."/bj/res/chevron_left.png";
+        id="nil";
+        layout_height="25dp";
+      };
+    };
+    {
+      LinearLayout;
+      layout_width="55dp";
+      id="wvwaveaeinbyxiayupontby顶栏按钮2pontby";
+      background="#ff29314d";
+      layout_height="fill";
+      gravity="center";
+      {
+        ImageView;
+        layout_width="25dp";
+        ColorFilter="#ffffffff";
+        src=activity.getLuaDir().."/bj/res/chevron_right.png";
+        id="nil";
+        layout_height="25dp";
       };
     };
   };
   {
     LuaWebView;
-    advert="text-muted,searx,form-control select-all-on-click cursor-text,infobox_part";
     layout_width="fill";
-    layout_marginTop="17dp";
-    id="nil";
+    layout_marginLeft="0dp";
     url="http://sou.uyou.org.cn";
     layout_height="fill";
+    advert="text-muted,searx,form-control select-all-on-click cursor-text,infobox_part";
+    layout_margin="0dp";
+    layout_marginRight="0dp";
+    id="bxSKlmelwebpontbynoidpontby";
+    layout_marginBottom="0dp";
   };
 };

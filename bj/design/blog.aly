@@ -1,67 +1,84 @@
 {
   LinearLayout;
-  background="#fff6f6f6";
-  layout_width="432dp";
   id="nil";
-  orientation="vertical";
+  paddingTop="29dp";
+  background="#fff6f6f6";
+  layout_width="fill";
+  padding="0dp";
   layout_height="fill";
+  orientation="vertical";
   {
     LinearLayout;
     id="nil";
+    orientation="horizontal";
     layout_width="fill";
-    background="#ffffffff";
+    layout_height="60dp";
     {
       LinearLayout;
+      id="WjwAxJbrinbyxiayupontby顶栏图片按钮1pontby";
       background="#fff6f6f6";
-      layout_width="432dp";
-      id="nil";
-      orientation="horizontal";
-      layout_height="76dp";
-      {
-        LinearLayout;
-        layout_width="333dp";
-        id="nil";
-        layout_height="123dp";
-        background="#fff6f6f6";
-        {
-          ImageView;
-          src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
-          ColorFilter="#ff333333";
-          layout_height="26dp";
-          layout_gravity="center";
-          id="RzJyWuejinbyxiayupontby顶栏图片按钮1pontby";
-          layout_marginLeft="20dp";
-          layout_width="26dp";
-        };
-        {
-          TextView;
-          text="Shared Blog";
-          textSize="19sp";
-          textColor="#FF31343C";
-          layout_gravity="center";
-          id="nil";
-          layout_marginLeft="26dp";
-          Typeface=Typeface.DEFAULT_BOLD;
-        };
-      };
+      gravity="center";
+      layout_width="56dp";
+      layout_height="fill";
       {
         ImageView;
-        src="res/note.png";
+        id="nil";
         ColorFilter="#ff333333";
-        layout_height="26dp";
+        src=activity.getLuaDir().."/bj/res/arrow_back.png";
+        layout_width="25dp";
+        layout_height="28dp";
+      };
+    };
+    {
+      LinearLayout;
+      id="nil";
+      background="#fff6f6f6";
+      layout_weight="1";
+      orientation="horizontal";
+      layout_height="fill";
+      layout_width="wrap";
+      {
+        TextView;
+        textColor="#FF333333";
+        layout_height="wrap";
+        text="Shared";
+        id="nil";
+        layout_width="wrap";
+        textSize="18sp";
+        Typeface=Typeface.DEFAULT_BOLD;
         layout_gravity="center";
-        id="wwKDtiXVinbyxiayupontby顶栏按钮2pontby";
-        layout_marginLeft="22dp";
-        layout_width="26dp";
+      };
+    };
+    {
+      LinearLayout;
+      id="SVzGbRmPinbyxiayupontby顶栏按钮2pontby";
+      background="#fff6f6f6";
+      gravity="center";
+      layout_width="55dp";
+      layout_height="fill";
+    };
+    {
+      LinearLayout;
+      id="qTqHsIDtinbyxiayupontby顶栏按钮2pontby";
+      background="#fff6f6f6";
+      gravity="center";
+      layout_width="55dp";
+      layout_height="fill";
+      {
+        ImageView;
+        id="nil";
+        ColorFilter="#ff333333";
+        src=activity.getLuaDir().."/bj/res/twotone_keyboard_arrow_up_black_24dp.png";
+        layout_width="25dp";
+        layout_height="25dp";
       };
     };
   };
   {
     LuaWebView;
-    layout_marginTop="17dp";
+    id="qsuaZvQcwebpontbynoidpontby";
     layout_height="fill";
-    url="http://blog.uyou.org.cn";
-    id="nil";
     layout_width="fill";
+    url="http://blog.uyou.org.cn";
   };
 };

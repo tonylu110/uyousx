@@ -1,67 +1,83 @@
 {
   LinearLayout;
-  layout_width="432dp";
   layout_height="fill";
-  id="nil";
   background="#ffffffff";
   orientation="vertical";
+  padding="0dp";
+  paddingTop="29dp";
+  layout_width="fill";
+  id="nil";
   {
     LinearLayout;
+    orientation="horizontal";
+    layout_height="60dp";
     layout_width="fill";
-    background="#ffffffff";
-    layout_height="80dp";
     id="nil";
     {
       LinearLayout;
-      layout_width="fill";
-      background="#ffffffff";
-      orientation="horizontal";
-      id="nil";
-      {
-        LinearLayout;
-        layout_width="333dp";
-        background="#ffffffff";
-        layout_height="123dp";
-        id="nil";
-        {
-          ImageView;
-          layout_width="26dp";
-          src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
-          layout_height="26dp";
-          id="uuuYvnjCinbyxiayupontby顶栏图片按钮1pontby";
-          ColorFilter="#ff333333";
-          layout_marginLeft="20dp";
-          layout_gravity="center";
-        };
-        {
-          TextView;
-          textSize="19sp";
-          text="搜咻 BT 搜索";
-          id="nil";
-          textColor="#FF31343C";
-          layout_gravity="center";
-          layout_marginLeft="26dp";
-          Typeface=Typeface.DEFAULT_BOLD;
-        };
-      };
+      gravity="center";
+      layout_height="fill";
+      layout_width="56dp";
+      id="ttnIgmtsinbyxiayupontby顶栏图片按钮1pontby";
       {
         ImageView;
-        layout_width="26dp";
-        src="res/note.png";
-        layout_height="26dp";
-        id="ikekPuxDinbyxiayupontby顶栏按钮2pontby";
+        layout_height="28dp";
         ColorFilter="#ff333333";
-        layout_marginLeft="22dp";
-        layout_gravity="center";
+        id="nil";
+        layout_width="25dp";
+        src=activity.getLuaDir().."/bj/res/arrow_back.png";
       };
+    };
+    {
+      LinearLayout;
+      id="nil";
+      layout_height="fill";
+      layout_weight="1";
+      orientation="horizontal";
+      {
+        TextView;
+        textSize="18sp";
+        layout_height="wrap";
+        Typeface=Typeface.DEFAULT_BOLD;
+        id="nil";
+        layout_width="wrap";
+        text="BT";
+        layout_gravity="center";
+        textColor="#FF333333";
+      };
+    };
+    {
+      LinearLayout;
+      gravity="center";
+      layout_height="fill";
+      layout_width="55dp";
+      id="yCqztXlxinbyxiayupontby顶栏按钮2pontby";
+      {
+        ImageView;
+        layout_height="25dp";
+        ColorFilter="#ff333333";
+        id="nil";
+        layout_width="25dp";
+        src="res/note.png";
+      };
+    };
+    {
+      LinearLayout;
+      layout_height="fill";
+      gravity="center";
+      id="EgtfKwcuinbyxiayupontby顶栏按钮2pontby";
+      layout_width="55dp";
     };
   };
   {
     LuaWebView;
-    layout_width="fill";
     layout_height="fill";
-    id="nil";
-    layout_marginTop="17dp";
+    layout_marginLeft="0dp";
+    layout_margin="0dp";
+    id="lpVmoYeEwebpontbynoidpontby";
+    layout_marginRight="0dp";
     url="http://zz.uyou.org.cn";
+    layout_width="fill";
+    layout_marginBottom="0dp";
   };
 };
