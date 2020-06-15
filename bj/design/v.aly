@@ -1,69 +1,102 @@
 {
   LinearLayout;
-  background="#ffffffff";
-  orientation="vertical";
-  layout_width="fill";
-  layout_height="fill";
   id="nil";
+  layout_width="fill";
+  orientation="vertical";
+  paddingBottom="0dp";
+  paddingLeft="0dp";
+  background="#ffffffff";
+  layout_height="fill";
+  padding="0dp";
+  paddingTop="29dp";
+  paddingRight="0dp";
   {
     LinearLayout;
+    layout_height="60dp";
     id="nil";
-    layout_height="80dp";
+    orientation="horizontal";
     layout_width="fill";
-    background="#ffffffff";
     {
       LinearLayout;
-      background="#ffffffff";
-      orientation="horizontal";
-      layout_width="fill";
-      layout_height="76dp";
-      id="nil";
-      {
-        LinearLayout;
-        id="nil";
-        layout_height="123dp";
-        layout_width="333dp";
-        background="#ffffffff";
-        {
-          ImageView;
-          ColorFilter="#ff333333";
-          src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
-          layout_height="26dp";
-          layout_gravity="center";
-          layout_marginLeft="20dp";
-          id="gEezwmMzinbyxiayupontby顶栏图片按钮1pontby";
-          layout_width="26dp";
-        };
-        {
-          TextView;
-          textSize="19sp";
-          layout_gravity="center";
-          layout_marginLeft="26dp";
-          id="nil";
-          textColor="#FF31343C";
-          Typeface=Typeface.DEFAULT_BOLD;
-          text="软件版本";
-        };
-      };
+      gravity="center";
+      id="hfgyuqvTinbyxiayupontby顶栏图片按钮1pontby";
+      layout_height="fill";
+      layout_width="56dp";
       {
         ImageView;
         ColorFilter="#ff333333";
-        src="res/note.png";
-        layout_height="26dp";
+        id="nil";
+        src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
+        layout_width="25dp";
+        layout_height="28dp";
+      };
+    };
+    {
+      LinearLayout;
+      layout_height="fill";
+      id="nil";
+      orientation="horizontal";
+      layout_weight="1";
+      {
+        TextView;
+        text="软件版本";
+        id="nil";
+        layout_width="wrap";
+        textColor="#FF333333";
         layout_gravity="center";
-        layout_marginLeft="22dp";
-        id="UoBxgNyfinbyxiayupontby顶栏按钮2pontby";
-        layout_width="26dp";
+        Typeface=Typeface.DEFAULT_BOLD;
+        layout_height="wrap";
+        textSize="18sp";
+      };
+    };
+    {
+      LinearLayout;
+      gravity="center";
+      id="RhzyXuTbinbyxiayupontby顶栏按钮2pontby";
+      layout_height="fill";
+      layout_width="55dp";
+      {
+        ImageView;
+        ColorFilter="#ff333333";
+        id="nil";
+        src="res/note.png";
+        layout_width="25dp";
+        layout_height="25dp";
+      };
+    };
+    {
+      LinearLayout;
+      gravity="center";
+      id="UrlgfSxyinbyxiayupontby顶栏按钮2pontby";
+      layout_height="fill";
+      layout_width="55dp";
+      {
+        ImageView;
+        ColorFilter="#ff333333";
+        id="nil";
+        src="res/tbs.png";
+        layout_width="25dp";
+        layout_height="25dp";
       };
     };
   };
   {
-    TextView;
-    textSize="20sp";
+    ImageView;
+    id="kHFCauDrinbyxiayupontby图片pontby";
+    src=activity.getLuaDir().."/bj/res/icon.png";
+    layout_width="100dp";
+    layout_marginTop="170dp";
+    layout_height="102dp";
     layout_gravity="center";
+  };
+  {
+    TextView;
     id="nil";
+    layout_gravity="center";
     textColor="#FF333333";
-    layout_marginTop="300dp";
-    text="软件版本：v2.1.1";
+    layout_marginTop="100dp";
+    Typeface=Typeface.DEFAULT_BOLD;
+    text="软件版本：v2.1.2.6_纪念版";
+    textSize="24sp";
   };
 };

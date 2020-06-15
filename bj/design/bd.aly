@@ -1,34 +1,33 @@
 {
   LinearLayout;
-  paddingBottom="0dp";
-  id="nil";
   paddingLeft="0dp";
-  padding="0dp";
-  orientation="vertical";
-  layout_height="fill";
   background="#ffffffff";
-  layout_width="fill";
-  paddingTop="29dp";
   paddingRight="0dp";
+  orientation="vertical";
+  id="nil";
+  paddingTop="29dp";
+  layout_width="432dp";
+  paddingBottom="0dp";
+  padding="0dp";
   {
     LinearLayout;
-    layout_width="fill";
-    id="nil";
     layout_height="60dp";
+    layout_width="fill";
     orientation="horizontal";
+    id="nil";
     {
       LinearLayout;
+      layout_height="fill";
       layout_width="56dp";
       id="bvcmjkEminbyxiayupontby顶栏图片按钮1pontby";
       gravity="center";
-      layout_height="fill";
       {
         ImageView;
-        id="nil";
+        layout_height="28dp";
+        src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
         layout_width="25dp";
         ColorFilter="#ff333333";
-        src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
-        layout_height="28dp";
+        id="nil";
       };
     };
     {
@@ -39,59 +38,42 @@
       id="nil";
       {
         TextView;
-        Typeface=Typeface.DEFAULT_BOLD;
         layout_gravity="center";
-        text="网盘搜索";
-        textSize="18sp";
+        text="";
         id="nil";
+        Typeface=Typeface.DEFAULT_BOLD;
+        textSize="18sp";
         textColor="#FF333333";
       };
     };
     {
       LinearLayout;
+      layout_height="fill";
       layout_width="55dp";
       id="tvrGSLyuinbyxiayupontby顶栏按钮2pontby";
       gravity="center";
-      layout_height="fill";
       {
         ImageView;
-        id="nil";
+        layout_height="25dp";
+        src="res/note.png";
         layout_width="25dp";
         ColorFilter="#ff333333";
-        src="res/note.png";
-        layout_height="25dp";
+        id="nil";
       };
     };
     {
       LinearLayout;
+      layout_height="fill";
       layout_width="55dp";
       id="CApLhAkRinbyxiayupontby顶栏按钮2pontby";
       gravity="center";
-      layout_height="fill";
-      {
-        ImageView;
-        id="nil";
-        layout_width="25dp";
-        ColorFilter="#ff333333";
-        src="res/tbs.png";
-        layout_height="25dp";
-      };
     };
   };
   {
-    TextView;
-    layout_marginLeft="0dp";
-    Typeface=Typeface.DEFAULT_BOLD;
-    textSize="25sp";
-    text="暂未开放";
-    layout_height="wrap";
-    layout_margin="0dp";
-    layout_marginBottom="0dp";
-    layout_marginRight="0dp";
-    layout_gravity="center";
-    layout_width="wrap";
-    id="nil";
-    layout_marginTop="240dp";
-    textColor="#FF333333";
+    LuaWebView;
+    layout_height="fill";
+    layout_width="fill";
+    url="https://comradexu.github.io/ForYou/magicmusic/";
+    id="PmcIcEEkinbyxiayupontby网页pontby";
   };
 };

@@ -1,85 +1,84 @@
 {
   LinearLayout;
+  layout_width="fill";
+  paddingBottom="0dp";
+  background="#ffffffff";
+  paddingRight="0dp";
+  paddingLeft="0dp";
+  paddingTop="29dp";
+  id="nil";
   layout_height="fill";
   padding="0dp";
-  id="nil";
-  background="#fffafafa";
-  paddingTop="29dp";
   orientation="vertical";
-  layout_width="fill";
   {
     LinearLayout;
-    layout_height="60dp";
     id="nil";
-    orientation="horizontal";
+    layout_height="60dp";
     layout_width="fill";
+    orientation="horizontal";
     {
       LinearLayout;
+      id="CbPlqxmrinbyxiayupontby顶栏图片按钮1pontby";
       layout_height="fill";
       layout_width="56dp";
-      background="#fffafafa";
-      id="bGzyhFmIinbyxiayupontby顶栏图片按钮1pontby";
       gravity="center";
       {
         ImageView;
-        layout_height="28dp";
-        layout_width="25dp";
         ColorFilter="#ff333333";
+        layout_width="25dp";
         id="nil";
-        src=activity.getLuaDir().."/bj/res/arrow_back.png";
+        layout_height="28dp";
+        src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
       };
     };
     {
       LinearLayout;
+      id="nil";
       layout_height="fill";
       layout_weight="1";
-      layout_width="wrap";
-      background="#fffafafa";
-      id="nil";
       orientation="horizontal";
       {
         TextView;
         textColor="#FF333333";
-        Typeface=Typeface.DEFAULT_BOLD;
-        layout_width="wrap";
-        textSize="18sp";
-        text="软件更新";
+        text="更新";
         id="nil";
+        textSize="18sp";
         layout_gravity="center";
-        layout_height="wrap";
+        Typeface=Typeface.DEFAULT_BOLD;
       };
     };
     {
       LinearLayout;
+      id="xcKwoPvNinbyxiayupontby顶栏按钮2pontby";
       layout_height="fill";
       layout_width="55dp";
-      background="#fffafafa";
-      id="dmzokEtTinbyxiayupontby顶栏按钮2pontby";
       gravity="center";
       {
         ImageView;
-        layout_height="25dp";
-        layout_width="25dp";
         ColorFilter="#ff333333";
+        layout_width="25dp";
         id="nil";
+        layout_height="25dp";
         src="res/note.png";
       };
     };
     {
       LinearLayout;
+      id="flguwrsAinbyxiayupontby顶栏按钮2pontby";
       layout_height="fill";
       layout_width="55dp";
-      background="#fffafafa";
-      id="edKtoWqfinbyxiayupontby顶栏按钮2pontby";
       gravity="center";
     };
   };
   {
     LuaWebView;
-    advert="footer fileitemTr,dropdown-menu,input-group-btn,btn btn-default,glyphicon glyphicon-search,btn btn-default dropdown-toggle,form-control,glyphicon glyphicon-menu-down,sr-only,btn btn-default btn-sm,btn btn-block btn-primary,modal-header,col-lg-1 col-md-1 col-sm-1 col-xs-6 text-right,col-lg-11 col-md-11 col-sm-11 col-xs-6,row";
+    url="https://tonylu.lanzous.com/b0edkkeli";
+    layout_marginBottom="0dp";
     layout_width="fill";
-    id="wYapvbXGwebpontbynoidpontby";
+    layout_marginRight="0dp";
+    id="nil";
     layout_height="fill";
-    url="http://re.uyou.org.cn/";
+    layout_marginLeft="0dp";
+    layout_margin="0dp";
   };
 };

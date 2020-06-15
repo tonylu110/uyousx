@@ -1,83 +1,83 @@
 {
   LinearLayout;
-  layout_height="fill";
-  background="#ffffffff";
-  orientation="vertical";
-  padding="0dp";
-  paddingTop="29dp";
-  layout_width="fill";
   id="nil";
+  padding="0dp";
+  orientation="vertical";
+  layout_height="fill";
+  layout_width="fill";
+  background="#ffffffff";
+  paddingTop="29dp";
   {
     LinearLayout;
-    orientation="horizontal";
-    layout_height="60dp";
     layout_width="fill";
     id="nil";
+    orientation="horizontal";
+    layout_height="60dp";
     {
       LinearLayout;
-      gravity="center";
-      layout_height="fill";
       layout_width="56dp";
       id="ttnIgmtsinbyxiayupontby顶栏图片按钮1pontby";
+      layout_height="fill";
+      gravity="center";
       {
         ImageView;
-        layout_height="28dp";
-        ColorFilter="#ff333333";
-        id="nil";
-        layout_width="25dp";
         src=activity.getLuaDir().."/bj/res/arrow_back.png";
+        layout_height="28dp";
+        layout_width="25dp";
+        id="nil";
+        ColorFilter="#ff333333";
       };
     };
     {
       LinearLayout;
-      id="nil";
       layout_height="fill";
       layout_weight="1";
       orientation="horizontal";
+      id="nil";
       {
         TextView;
-        textSize="18sp";
-        layout_height="wrap";
-        Typeface=Typeface.DEFAULT_BOLD;
-        id="nil";
-        layout_width="wrap";
         text="BT";
-        layout_gravity="center";
         textColor="#FF333333";
+        id="nil";
+        textSize="18sp";
+        layout_width="wrap";
+        layout_gravity="center";
+        Typeface=Typeface.DEFAULT_BOLD;
+        layout_height="wrap";
       };
     };
     {
       LinearLayout;
-      gravity="center";
-      layout_height="fill";
       layout_width="55dp";
       id="yCqztXlxinbyxiayupontby顶栏按钮2pontby";
+      layout_height="fill";
+      gravity="center";
       {
         ImageView;
-        layout_height="25dp";
-        ColorFilter="#ff333333";
-        id="nil";
-        layout_width="25dp";
         src="res/note.png";
+        layout_height="25dp";
+        layout_width="25dp";
+        id="nil";
+        ColorFilter="#ff333333";
       };
     };
     {
       LinearLayout;
-      layout_height="fill";
-      gravity="center";
-      id="EgtfKwcuinbyxiayupontby顶栏按钮2pontby";
       layout_width="55dp";
+      id="EgtfKwcuinbyxiayupontby顶栏按钮2pontby";
+      gravity="center";
+      layout_height="fill";
     };
   };
   {
     LuaWebView;
+    layout_marginRight="0dp";
+    layout_marginBottom="0dp";
+    url="http://zz.uyou.org.cn";
     layout_height="fill";
+    layout_width="fill";
     layout_marginLeft="0dp";
     layout_margin="0dp";
     id="lpVmoYeEwebpontbynoidpontby";
-    layout_marginRight="0dp";
-    url="http://zz.uyou.org.cn";
-    layout_width="fill";
-    layout_marginBottom="0dp";
   };
 };
