@@ -26,6 +26,7 @@ epggyckjinbyxiayupontby滑动横排按钮1pontby.onClick=function()--aluafu点�
 进入页面("blog")      
  end--aluafu点击事件尾epggyckjinbyxiayupontby滑动横排按钮1pontby
 
+
 --aluafu点击事件首
 GrCYFEouinbyxiayupontby滑动横排按钮2pontby.onClick=function()--aluafu点击事件
 进入页面("bt")      
@@ -39,39 +40,11 @@ SklzxlaBinbyxiayupontby滑动横排按钮3pontby.onClick=function()--aluafu点�
 
 
 --aluafu点击事件首
-CJTzkgpuinbyxiayupontby滑动横排按钮1pontby.onClick=function()--aluafu点击事件
-进入页面("bd")      
-print("暂未开放")
- end--aluafu点击事件尾CJTzkgpuinbyxiayupontby滑动横排按钮1pontby
-
-
-
-
---aluafu点击事件首
 nHRdvqtSinbyxiayupontby滑动横排按钮2pontby.onClick=function()--aluafu点击事件
 进入页面("re")      
  end--aluafu点击事件尾nHRdvqtSinbyxiayupontby滑动横排按钮2pontby
 
 --aluafu点击事件首
 lGyNDqcVinbyxiayupontby滑动横排按钮3pontby.onClick=function()--aluafu点击事件
-print("软件版本：v2.1.2")
-
-
-
+进入页面("v")      
  end--aluafu点击事件尾lGyNDqcVinbyxiayupontby滑动横排按钮3pontby
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

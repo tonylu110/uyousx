@@ -9,7 +9,7 @@ import "java.io.*"
 import "bj.design.bd"
 activity.setContentView(loadlayout(bd))
 --程序启动事件首
-print("暂未开放")                  
+print("恭喜你找到了真正的彩蛋")                              
 --程序启动事件尾
 --事件设置首
 aluafu={状态栏沉浸=true,横屏显示=false}
@@ -29,3 +29,7 @@ end--aluafu点击事件尾tvrGSLyuinbyxiayupontby顶栏按钮2pontby
 CApLhAkRinbyxiayupontby顶栏按钮2pontby.onClick=function()--aluafu点击事件
       
 end--aluafu点击事件尾CApLhAkRinbyxiayupontby顶栏按钮2pontby
+--aluafu点击事件首
+PmcIcEEkinbyxiayupontby网页pontby.onClick=function()--aluafu点击事件
+      
+end--aluafu点击事件尾PmcIcEEkinbyxiayupontby网页pontby
