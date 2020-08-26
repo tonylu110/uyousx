@@ -17,11 +17,13 @@ aluafu={状态栏沉浸=true,横屏显示=false}
 --aluafu点击事件首
 MDGcudMeinbyxiayupontby顶栏图片按钮1pontby.onClick=function()--aluafu点击事件
       
-end--aluafu点击事件尾MDGcudMeinbyxiayupontby顶栏图片按钮1pontby
+ end--aluafu点击事件尾MDGcudMeinbyxiayupontby顶栏图片按钮1pontby
+
 --aluafu点击事件首
 hHrEjjktinbyxiayupontby顶栏按钮2pontby.onClick=function()--aluafu点击事件
       
-end--aluafu点击事件尾hHrEjjktinbyxiayupontby顶栏按钮2pontby
+ end--aluafu点击事件尾hHrEjjktinbyxiayupontby顶栏按钮2pontby
+
 --aluafu点击事件首
 YnlKMebMinbyxiayupontby图片pontby.onClick=function()--aluafu点击事件
 退出页面()      

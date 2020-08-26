@@ -9,7 +9,15 @@ import "java.io.*"
 import "bj.design.searx"
 activity.setContentView(loadlayout(searx))
 --程序启动事件首
-                  
+bxSKlmelwebpontbynoidpontby.removeView(bxSKlmelwebpontbynoidpontby.getChildAt(0))
+--导包
+import "com.lua.*"
+--进度改变事件
+bxSKlmelwebpontbynoidpontby.setWebChromeClient(LuaWebChrome(LuaWebChrome.IWebChrine{
+  onProgressChanged=function(view, newProgress)
+    --事件
+  end,
+}));                            
 --程序启动事件尾
 --事件设置首
 aluafu={状态栏沉浸=true,横屏显示=false}

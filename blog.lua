@@ -18,6 +18,17 @@ import "android.app.*"
 import "java.util.HashMap"
 import "bj.design.blog"
 activity.setContentView(loadlayout(blog))
+--程序启动事件首
+rmBDgmpy浏览器1pontbynoidpontby.removeView(rmBDgmpy浏览器1pontbynoidpontby.getChildAt(0))
+--导包
+import "com.lua.*"
+--进度改变事件
+rmBDgmpy浏览器1pontbynoidpontby.setWebChromeClient(LuaWebChrome(LuaWebChrome.IWebChrine{
+  onProgressChanged=function(view, newProgress)
+    --事件
+  end,
+}));                  
+--程序启动事件尾
 --事件设置首
 aluafu={状态栏沉浸=true,横屏显示=false}
 --事件设置尾
