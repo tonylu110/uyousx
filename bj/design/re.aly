@@ -1,84 +1,91 @@
 {
   LinearLayout;
-  layout_width="fill";
-  paddingBottom="0dp";
   background="#ffffffff";
-  paddingRight="0dp";
-  paddingLeft="0dp";
-  paddingTop="29dp";
-  id="nil";
-  layout_height="fill";
-  padding="0dp";
   orientation="vertical";
+  paddingTop="29dp";
+  paddingRight="0dp";
+  paddingBottom="0dp";
+  layout_width="fill";
+  id="nil";
+  padding="0dp";
+  layout_height="fill";
+  paddingLeft="0dp";
   {
     LinearLayout;
     id="nil";
-    layout_height="60dp";
     layout_width="fill";
     orientation="horizontal";
+    layout_height="60dp";
     {
       LinearLayout;
       id="CbPlqxmrinbyxiayupontby顶栏图片按钮1pontby";
-      layout_height="fill";
       layout_width="56dp";
       gravity="center";
+      layout_height="fill";
       {
         ImageView;
         ColorFilter="#ff333333";
         layout_width="25dp";
         id="nil";
-        layout_height="28dp";
         src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
+        layout_height="28dp";
       };
     };
     {
       LinearLayout;
       id="nil";
-      layout_height="fill";
-      layout_weight="1";
       orientation="horizontal";
+      layout_weight="1";
+      layout_height="fill";
       {
         TextView;
-        textColor="#FF333333";
+        layout_gravity="center";
+        textSize="18sp";
         text="更新";
         id="nil";
-        textSize="18sp";
-        layout_gravity="center";
         Typeface=Typeface.DEFAULT_BOLD;
+        textColor="#FF333333";
       };
     };
     {
       LinearLayout;
       id="xcKwoPvNinbyxiayupontby顶栏按钮2pontby";
-      layout_height="fill";
       layout_width="55dp";
       gravity="center";
+      layout_height="fill";
       {
         ImageView;
         ColorFilter="#ff333333";
         layout_width="25dp";
         id="nil";
-        layout_height="25dp";
         src="res/note.png";
+        layout_height="25dp";
       };
     };
     {
       LinearLayout;
       id="flguwrsAinbyxiayupontby顶栏按钮2pontby";
-      layout_height="fill";
       layout_width="55dp";
       gravity="center";
+      layout_height="fill";
+      {
+        ImageView;
+        src=activity.getLuaDir().."/bj/res/apps.png";
+        layout_width="25dp";
+        id="kAxPiuDkinbyxiayupontby图片pontby";
+        layout_height="27dp";
+      };
     };
   };
   {
     LuaWebView;
-    url="https://tonylu.lanzous.com/b0edkkeli";
-    layout_marginBottom="0dp";
-    layout_width="fill";
-    layout_marginRight="0dp";
-    id="nil";
-    layout_height="fill";
     layout_marginLeft="0dp";
+    layout_marginBottom="0dp";
     layout_margin="0dp";
+    layout_width="fill";
+    id="web";
+    layout_marginRight="0dp";
+    url="https://tonylu.lanzous.com/b0edkkeli";
+    layout_height="fill";
   };
 };

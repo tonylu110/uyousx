@@ -1,32 +1,32 @@
 {
   LinearLayout;
-  paddingBottom="0dp";
-  padding="0dp";
-  background="#ffffffff";
-  layout_width="fill";
-  id="nil";
   layout_height="fill";
-  paddingLeft="0dp";
-  paddingRight="0dp";
+  background="#ffffffff";
   paddingTop="29dp";
+  id="nil";
+  paddingLeft="0dp";
+  padding="0dp";
+  layout_width="fill";
+  paddingBottom="0dp";
   orientation="vertical";
+  paddingRight="0dp";
   {
     LinearLayout;
     layout_height="60dp";
-    id="nil";
-    layout_width="fill";
     orientation="horizontal";
+    layout_width="fill";
+    id="nil";
     {
       LinearLayout;
       layout_height="fill";
-      id="rqgvWhhginbyxiayupontby顶栏图片按钮1pontby";
-      layout_width="56dp";
       gravity="center";
+      layout_width="56dp";
+      id="rqgvWhhginbyxiayupontby顶栏图片按钮1pontby";
       {
         ImageView;
-        src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
-        ColorFilter="#ff333333";
         layout_height="28dp";
+        ColorFilter="#ff333333";
+        src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
         layout_width="25dp";
         id="nil";
       };
@@ -34,30 +34,30 @@
     {
       LinearLayout;
       layout_height="fill";
-      id="nil";
       layout_weight="1";
       orientation="horizontal";
+      id="nil";
       {
         TextView;
-        textColor="#FF333333";
-        textSize="18sp";
-        text="Shared";
+        layout_gravity="center";
         Typeface=Typeface.DEFAULT_BOLD;
         id="nil";
-        layout_gravity="center";
+        textColor="#FF333333";
+        textSize="18sp";
+        text="隐私政策";
       };
     };
     {
       LinearLayout;
       layout_height="fill";
-      id="wPdldlrEinbyxiayupontby顶栏按钮2pontby";
-      layout_width="55dp";
       gravity="center";
+      layout_width="55dp";
+      id="wPdldlrEinbyxiayupontby顶栏按钮2pontby";
       {
         ImageView;
-        src="res/note.png";
-        ColorFilter="#ff333333";
         layout_height="25dp";
+        ColorFilter="#ff333333";
+        src="res/note.png";
         layout_width="25dp";
         id="nil";
       };
@@ -65,14 +65,14 @@
     {
       LinearLayout;
       layout_height="fill";
-      id="vfZEtoFjinbyxiayupontby顶栏按钮2pontby";
-      layout_width="55dp";
       gravity="center";
+      layout_width="55dp";
+      id="vfZEtoFjinbyxiayupontby顶栏按钮2pontby";
       {
         ImageView;
-        src="res/tbs.png";
-        ColorFilter="#ff333333";
         layout_height="25dp";
+        ColorFilter="#ff333333";
+        src="res/tbs.png";
         layout_width="25dp";
         id="nil";
       };
@@ -80,13 +80,16 @@
   };
   {
     LuaWebView;
-    layout_marginLeft="0dp";
-    layout_margin="0dp";
     layout_height="fill";
+    horizontalScrollBarEnabled=false;
+    layout_marginLeft="0dp";
+    url="http://ys.uyou.org.cn";
+    layout_width="390dp";
+    id="web";
+    layout_gravity="center";
+    layout_margin="0dp";
     layout_marginRight="0dp";
+    VerticalScrollBarEnabled=false;
     layout_marginBottom="0dp";
-    id="rmBDgmpy浏览器1pontbynoidpontby";
-    layout_width="fill";
-    url="http://blog.uyou.org.cn";
   };
 };

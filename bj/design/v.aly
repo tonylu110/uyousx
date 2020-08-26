@@ -1,34 +1,34 @@
 {
   LinearLayout;
+  background="#ffffffff";
+  padding="0dp";
+  layout_height="fill";
+  paddingTop="29dp";
   id="nil";
-  layout_width="fill";
   orientation="vertical";
   paddingBottom="0dp";
   paddingLeft="0dp";
-  background="#ffffffff";
-  layout_height="fill";
-  padding="0dp";
-  paddingTop="29dp";
+  layout_width="fill";
   paddingRight="0dp";
   {
     LinearLayout;
     layout_height="60dp";
-    id="nil";
-    orientation="horizontal";
     layout_width="fill";
+    orientation="horizontal";
+    id="nil";
     {
       LinearLayout;
-      gravity="center";
-      id="hfgyuqvTinbyxiayupontby顶栏图片按钮1pontby";
       layout_height="fill";
+      gravity="center";
       layout_width="56dp";
+      id="hfgyuqvTinbyxiayupontby顶栏图片按钮1pontby";
       {
         ImageView;
-        ColorFilter="#ff333333";
+        layout_height="28dp";
         id="nil";
+        ColorFilter="#ff333333";
         src=activity.getLuaDir().."/bj/res/twotone_arrow_back_black_24dp.png";
         layout_width="25dp";
-        layout_height="28dp";
       };
     };
     {
@@ -39,64 +39,73 @@
       layout_weight="1";
       {
         TextView;
-        text="软件版本";
-        id="nil";
-        layout_width="wrap";
+        layout_height="wrap";
         textColor="#FF333333";
+        textSize="18sp";
         layout_gravity="center";
         Typeface=Typeface.DEFAULT_BOLD;
-        layout_height="wrap";
-        textSize="18sp";
+        text="软件版本";
+        layout_width="wrap";
+        id="nil";
       };
     };
     {
       LinearLayout;
+      layout_height="fill";
       gravity="center";
+      layout_width="55dp";
       id="RhzyXuTbinbyxiayupontby顶栏按钮2pontby";
-      layout_height="fill";
-      layout_width="55dp";
       {
         ImageView;
-        ColorFilter="#ff333333";
-        id="nil";
-        src="res/note.png";
-        layout_width="25dp";
         layout_height="25dp";
+        id="nil";
+        ColorFilter="#ff333333";
+        src=activity.getLuaDir().."/bj/res/twotone_group_black_24dp.png";
+        layout_width="25dp";
       };
     };
     {
       LinearLayout;
-      gravity="center";
-      id="UrlgfSxyinbyxiayupontby顶栏按钮2pontby";
       layout_height="fill";
+      gravity="center";
       layout_width="55dp";
+      id="UrlgfSxyinbyxiayupontby顶栏按钮2pontby";
       {
         ImageView;
-        ColorFilter="#ff333333";
-        id="nil";
-        src="res/tbs.png";
-        layout_width="25dp";
         layout_height="25dp";
+        id="nil";
+        ColorFilter="#ff333333";
+        src=activity.getLuaDir().."/bj/res/twotone_error_black_24dp.png";
+        layout_width="25dp";
       };
     };
   };
   {
     ImageView;
+    layout_height="102dp";
+    layout_gravity="center";
+    layout_marginTop="170dp";
     id="kHFCauDrinbyxiayupontby图片pontby";
     src=activity.getLuaDir().."/bj/res/icon.png";
     layout_width="100dp";
-    layout_marginTop="170dp";
-    layout_height="102dp";
-    layout_gravity="center";
   };
   {
     TextView;
-    id="nil";
-    layout_gravity="center";
+    text="软件版本：v2.1.4";
     textColor="#FF333333";
-    layout_marginTop="100dp";
-    Typeface=Typeface.DEFAULT_BOLD;
-    text="软件版本：v2.1.2.6_纪念版";
     textSize="24sp";
+    layout_gravity="center";
+    Typeface=Typeface.DEFAULT_BOLD;
+    layout_marginTop="59dp";
+    id="nil";
+  };
+  {
+    ImageView;
+    layout_height="30dp";
+    layout_gravity="center";
+    layout_marginTop="100dp";
+    id="RwaUdWwainbyxiayupontby图片pontby";
+    src=activity.getLuaDir().."/bj/res/ys.png";
+    layout_width="139dp";
   };
 };
