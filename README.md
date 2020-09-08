@@ -13,6 +13,6 @@
 
 * **如果你觉得这个软件适合您的话，希望您能请我喝杯咖啡**
 
-<img src="http://bt.uyou.org.cn:518/down/htsW7rGogShk" height="412px">
+<img src="http://blog.uyou.org.cn/wp-content/uploads/2020/02/mm_facetoface_collect_qrcode_1582460281306-746x1024.png" height="412px">
 
-[<img src="http://bt.uyou.org.cn:518/down/S3Te2WxcSYYR" height="412px">](https://www.paypal.me/tonylu110)
+<img src="http://blog.uyou.org.cn/wp-content/uploads/2020/02/1582460288902-658x1024.jpg" height="412px">
